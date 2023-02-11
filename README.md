@@ -17,26 +17,27 @@ The model has been trained using input and output extracted from the Kaggle webs
 
 _Input (13 features)_
 
-Input (13 features)
-Row: <int> number of row
-Id: <int> employee's id
-Surname: <str> employee's surname
-Score: <int> credit score of an employee
-Nationality: <str> employee's nationality
-Gender: <str> employee's gender
-Age: <int> employee's age
-Tenure: <int> employee's tenure
-Balance: <float> employee's total bank balance
-Products: <float> product count bought by employee
-Card: <int> employee owns a credit card or not
-Active: <int> employee is active or not
-Salary: <float> employee's annual income
+- Row: (int) number of row 
+- Id: (int) employee's id 
+- Surname: (str) employee's surname
+- Score: (int) credit score of an employee
+- Nationality: (str) employee's nationality
+- Gender: (str) employee's gender
+- Age: (int) employee's age
+- Tenure: (int) employee's tenure
+- Balance: (float) employee's total bank balance
+- Products: (float) product count bought by employee
+- Card: (int) employee owns a credit card or not
+- Active: (int) employee is active or not
+- Salary: (float) employee's annual income
   
 _Output (1 feature)_
 
-Exited: <int> employee resigned or not
+- Exited: (int) employee resigned or not
   
-With the help of three Machine Learning models (**logistic regression, decision tree, and support vector machine (SVM)**), the input features are expected to give a high performance to be able to predict the employee's intention to churn or resigned. In order to achieve a high performance of model, this study will experiment with using Synthetic Minority Over-sampling Technique (SMOTE) to handle the imbalanced dataset. The experiment will see the performance before and after applying SMOTE to the imbalanced dataset.
+With the help of three Machine Learning models (**logistic regression, decision tree, and support vector machine (SVM)**), the input features are expected to give a high performance to be able to predict the employee's intention to churn or resigned. In order to achieve a high performance of model, this study will experiment with using **Synthetic Minority Over-sampling Technique (SMOTE)** to handle the imbalanced dataset. The experiment will see the performance **before and after applying SMOTE** to the imbalanced dataset. **Area Under Curve** (before SMOTE) and **total accuracy** (after SMOTE) are chosen to be the metrics to measurement the model performance.
+
+
   
 
 
