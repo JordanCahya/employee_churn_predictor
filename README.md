@@ -36,9 +36,8 @@ _Output (1 feature)_
 
 Exited: <int> employee resigned or not
   
-With the help of three Machine Learning models (**logistic regression, decision tree, and support vector machine (SVM)**), the input features are expected to give a high-accuracy performance to be able to predict the employee's intention to churn or resigned.  
+With the help of three Machine Learning models (**logistic regression, decision tree, and support vector machine (SVM)**), the input features are expected to give a high performance to be able to predict the employee's intention to churn or resigned. In order to achieve a high performance of model, this study will experiment with using Synthetic Minority Over-sampling Technique (SMOTE) to handle the imbalanced dataset. The experiment will see the performance before and after applying SMOTE to the imbalanced dataset.
+  
 
 
-Nowadays, there are many papers or research journal discussing about employee churn or attrition. Mostly, most of the paper did not experiment with the balance data, 
-perform experimental on the balance output train data.
 
