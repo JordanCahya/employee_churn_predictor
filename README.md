@@ -13,13 +13,10 @@ According to Saradhi and Palshikar (2010), losing an employee is a problem for v
 
 Therefore, understanding why and when employees are most likely to leave can lead to actions to **improve employee retention** as well as **possibly planning new hiring in advance**. The model is expected to give **a high-accuracy performance** to be able to predict the employee's intention to churn or resigned.
 
-The model has been trained using input and output extracted from the Kaggle website which can be accessed at https://www.kaggle.com/datasets/weinoose/dataset-for-churn-prediction. Below is the description of each input and output feature:
+The model has been trained using input and output extracted from the Kaggle website which can be accessed at https://www.kaggle.com/datasets/weinoose/dataset-for-churn-prediction. Below is the description of each input and output after feature selection:
 
-_Input (13 features)_
-
-- Row: (int) number of row 
-- Id: (int) employee's id 
-- Surname: (str) employee's surname
+_Input (8 features)_
+ 
 - Score: (int) credit score of an employee
 - Nationality: (str) employee's nationality
 - Gender: (str) employee's gender
@@ -27,9 +24,7 @@ _Input (13 features)_
 - Tenure: (int) employee's tenure
 - Balance: (float) employee's total bank balance
 - Products: (float) product count bought by employee
-- Card: (int) employee owns a credit card or not
 - Active: (int) employee is active or not
-- Salary: (float) employee's annual income
   
 _Output (1 feature)_
 
