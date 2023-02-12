@@ -34,5 +34,6 @@ With the help of three Machine Learning models (**logistic regression, decision 
 
 # Conclusion
 
+Even though the SVM model before SMOTE has higher performance in AUC compared to the SVM model after SMOTE in total accuracy, the study still choose SVM model after SMOTE as best model to predict employee churn. This is due to the main objective of this predictive analysis is to understand why and when employees are most likely to leave to anticipate employee retention or planning new hiring in advance.
 
 
